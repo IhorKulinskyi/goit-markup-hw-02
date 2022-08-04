@@ -14,15 +14,18 @@
 }
 /*HEADER*/
 
+.header{
+    background-color: var(--basic-white);
+}
 
 /*Site nav*/
-
 .list{
     list-style: none;
 }
 
 .link{
     color: var(--primary-text-color);
+    text-decoration: none;
 }
 
 .link:hover,.link:focus,.link:active,.current{
@@ -37,6 +40,9 @@
 
 /*MAIN*/
 
+.hide-title{
+    display: none;
+}
 
 /*Hero*/
 
@@ -71,10 +77,17 @@
     background-color: var(--accent-bgc);
 }
 
-.footer-contact{
-    color: #FFFFFF99;;
+.footer-contact, .footer-contact:hover, .footer-contact:focus {
+    color: #FFFFFF99;
 }
 
 .address{
     color: var(--basic-white);
+}
+
+/*PORTFOLIO*/
+
+.filter{
+    display: flex;
+    flex-direction: row;
 }
