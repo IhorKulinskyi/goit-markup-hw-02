@@ -1,93 +1,108 @@
-:root{
-    --primary-text-color: #212121;
-    --secondary-text-color: #757575;
-    --accent-color: #2196F3;
-    --primary-bgc: #F5F5F5;
-    --secondary-bgc: #F5F4FA;
-    --accent-bgc: #2F303A;
-    --basic-white: #ffffff;
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-bgc: #f5f5f5;
+  --secondary-bgc: #f5f4fa;
+  --accent-bgc: #2f303a;
+  --basic-white: #ffffff;
 }
 
-.page{
-    color: var(--primary-text-color);
-    background-color: var(--primary-bgc);
+.page {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bgc);
 }
 /*HEADER*/
 
-.header{
-    background-color: var(--basic-white);
+.header {
+  background-color: var(--basic-white);
 }
 
 /*Site nav*/
-.list{
-    list-style: none;
+.list {
+  list-style: none;
 }
 
-.link{
-    color: var(--primary-text-color);
-    text-decoration: none;
+.link {
+  color: var(--primary-text-color);
+  text-decoration: none;
 }
 
-.link:hover,.link:focus,.link:active,.current{
-    color: var(--accent-color);
+.link:hover,
+.link:focus,
+.link:active,
+.current {
+  color: var(--accent-color);
 }
 
 /*Header Cotacts*/
 
-.header-contact{
-    color: var(--secondary-text-color);
+.header-contact {
+  color: var(--secondary-text-color);
 }
 
 /*MAIN*/
 
-.hide-title{
-    display: none;
+.hide-title {
+  display: none;
 }
 
 /*Hero*/
 
-.hero{
-    background-color: var(--accent-bgc);
+.hero {
+  background-color: var(--accent-bgc);
 }
 
-.hero-title{
-    color: var(--basic-white);
+.hero-title {
+  color: var(--basic-white);
 }
 
-.button{
-    color: var(--basic-white);
-    background-color: var(--accent-color);
+.button {
+  color: var(--basic-white);
+  background-color: var(--accent-color);
+  margin: 8px;
 }
 
 /*Featues*/
 
-.description{
-    color: var(--secondary-text-color);
+.description {
+  color: var(--secondary-text-color);
 }
 
 /*Team*/
 
-.team{
-    background-color: var(--secondary-bgc);
+.team {
+  background-color: var(--secondary-bgc);
 }
 
 /*FOOTER*/
 
 .footer {
-    background-color: var(--accent-bgc);
+  background-color: var(--accent-bgc);
 }
 
-.footer-contact, .footer-contact:hover, .footer-contact:focus {
-    color: #FFFFFF99;
+.footer-contact {
+  color: #ffffff99;
 }
 
-.address{
-    color: var(--basic-white);
+.address {
+  color: var(--basic-white);
 }
 
 /*PORTFOLIO*/
 
-.filter{
-    display: flex;
-    flex-direction: row;
+.filter {
+  display: flex;
+  flex-direction: row;
+}
+
+.filter-button{
+  color: var(--primary-text-color);
+  background-color: var(--secondary-bgc);
+  margin: 8px;
+}
+
+.filter-button:hover, .filter-button:focus{
+  color: var(--basic-white);
+  background-color: var(--accent-color);
 }
