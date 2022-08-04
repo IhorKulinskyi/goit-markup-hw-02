@@ -37,8 +37,13 @@
 
 /*Header Cotacts*/
 
-.header-contact {
+.header .contact {
   color: var(--secondary-text-color);
+}
+
+.header .contact:hover,
+.header .contact:focus{
+  color: var(--accent-color);
 }
 
 /*MAIN*/
@@ -53,7 +58,7 @@
   background-color: var(--accent-bgc);
 }
 
-.hero-title {
+.hero .title {
   color: var(--basic-white);
 }
 
@@ -65,8 +70,17 @@
 
 /*Featues*/
 
+.features{
+  background-color: var(--basic-white);
+}
+
 .description {
   color: var(--secondary-text-color);
+}
+/*Our action*/
+
+.our-action{
+  background-color: var(--basic-white);
 }
 
 /*Team*/
@@ -81,8 +95,13 @@
   background-color: var(--accent-bgc);
 }
 
-.footer-contact {
+.footer .contact {
   color: #ffffff99;
+}
+
+.footer .contact:hover,
+.footer .contact:focus{
+  color: var(--accent-color);
 }
 
 .address {
@@ -96,13 +115,14 @@
   flex-direction: row;
 }
 
-.filter-button{
+.filter .button{
   color: var(--primary-text-color);
   background-color: var(--secondary-bgc);
   margin: 8px;
 }
 
-.filter-button:hover, .filter-button:focus{
+.filter button:hover, 
+.filter button:focus{
   color: var(--basic-white);
   background-color: var(--accent-color);
 }
