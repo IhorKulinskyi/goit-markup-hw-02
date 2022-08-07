@@ -198,11 +198,6 @@
 
 /*PORTFOLIO*/
 
-.filter {
-  display: flex;
-  flex-direction: row;
-}
-
 .filter .button{
   color: var(--primary-text-color);
   background-color: var(--secondary-bgc);
