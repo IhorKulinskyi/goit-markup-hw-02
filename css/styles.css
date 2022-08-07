@@ -11,11 +11,37 @@
 .page {
   color: var(--primary-text-color);
   background-color: var(--primary-bgc);
+  font-family: Roboto , sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: 400;
 }
 /*HEADER*/
 
 .header {
   background-color: var(--basic-white);
+  letter-spacing: 0.02em;  
+}
+
+.logo1{
+  color: var(--accent-color);
+  font-family: 'Raleway';
+  letter-spacing: 0.03em;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo2 {
+  color: var(--primary-text-color);
+  font-family: 'Railway';
+  letter-spacing: 0.03em;
+    font-size: 26px;
+      line-height: 1.2;
+}
+
+.footer .logo2{
+  color: var(--basic-white);
+  font-family: 'Railway';
+    font-size: 26px;
+      line-height: 1.2;
 }
 
 /*Site nav*/
@@ -23,15 +49,23 @@
   list-style: none;
 }
 
-.link {
-  color: var(--primary-text-color);
+.link{
+  color: inherit;
   text-decoration: none;
 }
 
-.link:hover,
-.link:focus,
-.link:active,
-.current {
+.header .link {
+  color: var(--primary-text-color);
+  font-size: 14px;
+    line-height: 1.14;
+    font-weight: 500;
+
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-nav .link:active,
+.site-nav .current {
   color: var(--accent-color);
 }
 
@@ -39,6 +73,8 @@
 
 .header .contact {
   color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .header .contact:hover,
@@ -52,6 +88,10 @@
   display: none;
 }
 
+.title{
+  font-weight: 700;
+}
+
 /*Hero*/
 
 .hero {
@@ -60,12 +100,25 @@
 
 .hero .title {
   color: var(--basic-white);
+    font-weight: 900;
+      letter-spacing: 0.06em;
+      font-size: 44px;
+        line-height: 1.36;
+}
+
+.hero .button{
+  font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
 }
 
 .button {
   color: var(--basic-white);
   background-color: var(--accent-color);
   margin: 8px;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 /*Featues*/
@@ -74,8 +127,15 @@
   background-color: var(--basic-white);
 }
 
+.features .title{
+  font-size: 14px;
+    line-height: 1.14;
+}
+
 .description {
   color: var(--secondary-text-color);
+  font-size: 14px;
+    line-height: 1.71;
 }
 /*Our action*/
 
@@ -83,10 +143,34 @@
   background-color: var(--basic-white);
 }
 
+.our-action .title{
+  font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
 /*Team*/
 
 .team {
   background-color: var(--secondary-bgc);
+}
+
+.team > .title{
+  font-weight: 700;
+  font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.team-list .title{
+  font-weight: 500;
+  font-size: 16px;
+    line-height: 1.18;
+}
+
+.team-list .description{
+    font-size: 16px;
+      line-height: 1.18;
 }
 
 /*FOOTER*/
@@ -97,6 +181,8 @@
 
 .footer .contact {
   color: #ffffff99;
+  font-size: 14px;
+    line-height: 1.71;
 }
 
 .footer .contact:hover,
@@ -106,6 +192,8 @@
 
 .address {
   color: var(--basic-white);
+  font-size: 14px;
+    line-height: 1.7;
 }
 
 /*PORTFOLIO*/
@@ -119,10 +207,24 @@
   color: var(--primary-text-color);
   background-color: var(--secondary-bgc);
   margin: 8px;
+  font-size: 16px;
+    line-height: 1.62;
+    font-weight: 500;
 }
 
 .filter button:hover, 
 .filter button:focus{
   color: var(--basic-white);
   background-color: var(--accent-color);
+}
+
+.catalog .title{
+  letter-spacing: 0.06em;
+  font-size: 18px;
+    line-height: 2;
+}
+
+.catalog .description{
+  font-size: 16px;
+    line-height: 1.88;
 }
