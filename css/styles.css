@@ -2,17 +2,18 @@
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
-  --primary-bgc: #f5f5f5;
+  --accent-button-color: #188ce8;
+  --primary-bgc: #ffffff;
   --secondary-bgc: #f5f4fa;
   --accent-bgc: #2f303a;
   --basic-white: #ffffff;
+  --footer-contacts-color: #ffffff99;
 }
 
 .page {
   color: var(--primary-text-color);
   background-color: var(--primary-bgc);
   font-family: Roboto, sans-serif;
-  font-weight: 400;
   letter-spacing: 0.03em;
 }
 /*HEADER*/
@@ -72,6 +73,7 @@
 
 .header .contact {
   color: var(--secondary-text-color);
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
@@ -115,8 +117,8 @@
 
 .hero .button:hover,
 .hero .button:focus {
-  color: var(--accent-bgc);
-  background-color: var(--basic-white);
+  color: var(--basic-white);
+  background-color: var(--accent-button-color);
 }
 
 .button {
@@ -186,7 +188,7 @@
 }
 
 .footer .contact {
-  color: #ffffff99;
+  color: var(--footer-contacts-color);
   font-size: 14px;
   line-height: 1.71;
 }
@@ -200,6 +202,7 @@
   color: var(--basic-white);
   font-size: 14px;
   line-height: 1.7;
+  font-style: normal;
 }
 
 /*PORTFOLIO*/
